@@ -1,0 +1,80 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+/*---navigatrion---*/
+#overall{
+    background-color: rgb(90, 189, 189);
+}
+header{
+    
+    background-color: rgb(35, 37, 37);
+    
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 17px;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(90, 189, 189);
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 900;
+    padding: 10px 20px;
+    
+    
+    
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(90, 189, 189);
+}
+
+.head ul li{
+    float: left;
+    
+    
+    color: rgb(90, 189, 189);
+    list-style-type: none;
+    margin-left: 10px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: rgb(90, 189, 189);
+    padding: 10px 20px;
+}
+.head ul li a:hover{
+    
+    background-color: rgb(90, 189, 189);
+    color: rgb(35, 37, 37);
+}
+.head ul li a.active{
+    background-color: rgb(90, 189, 189);
+    color: rgb(35, 37, 37);
+
+}
+
+/*---body---*/
+.main{
+    
+    color: rgb(35, 37, 37);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main h1{
+    font-size: 60px;
+    padding-top: 80px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.main p{
+    padding: 20px 180px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODO List</title>
+    <link rel="stylesheet" href="./css/reg.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+</head>
+<body id="overall">
+    <header class="head">
+        <nav class="navbar">
+            <div class="container">
+                <h2 class="logo"><a href="./index.html">Todo List</a></h2>
+                <ul>
+                    <li><a href="./index.html">About</a></li>
+                    <li><a href="./task.html">Task</a></li>
+                    <li><a href="./reg.html" class="active">Registration</a></li>
+                    <li><a href="./login.html">Log in</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+    </header>
+    <!--end of navigation-->
+    <!--start of Registration page-->
+    <div class="reg-area">
+        <div class="main">
+            <div class="container">
+
+                <div class="reg-form">
+                    <h2>Registration Form</h2>
+                    <hr>
+                    <form action="">
+                        <br>
+                       <div>
+                            <label for="name">
+                                Name*: <input type="text" name="name" placeholder="Enter your Name" id="name">
+                            </label>
+                       </div>
+                        <br>
+                        <div>
+                            <label for="con-num">
+                                Contact Number*: <input type="number" name="con-num" placeholder="+880...." id="con-num">
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email">
+                                Email*: <input type="text" name="email" placeholder="@gmail.com" id="email">
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="dob">
+                                Date of Birth: <input type="date" name="dob" id="dob">
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="address">
+                                Address: <input type="address" name="address" placeholder="Enter your Address" id="address">
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="password">
+                                Password: <input type="password" name="password" id="password">
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="confirm-pass">
+                                Confirm Password: <input type="password" name="confirm-pass" id="password">
+                            </label>
+                        </div>
+                        <br>
+                        <div>
+                            <input id="submit" type="submit" value="save" name="submit">
+                        </div>
+                        <br>
+                    </form>
+                    <p>Already A User? <a href="./login.html">Log in</a></p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
